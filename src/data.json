@@ -1,0 +1,44 @@
+{
+    "resources": [
+      {
+        "title": "art_1",
+        "link": "",
+        "imageUrl": "/utils/img1.png"
+      },
+      {
+        "title": "art_2",
+        "link": "",
+        "imageUrl": "/utils/img2.png"
+      },
+      {
+        "title": "art_3",
+        "link": "",
+        "imageUrl": "/utils/img3.png"
+      },
+      {
+        "title": "art_4",
+        "link": "",
+        "imageUrl": "/utils/img4.png"
+      },
+      {
+        "title": "art_5",
+        "link": "",
+        "imageUrl": "/utils/img5.png"
+      },
+      {
+        "title": "art_6",
+        "link": "",
+        "imageUrl": "/utils/img6.png"
+      },
+      {
+        "title": "art_7",
+        "link": "",
+        "imageUrl": "/utils/img7.png"
+      },
+      {
+        "title": "art_8",
+        "link": "",
+        "imageUrl": "/utils/img8.png"
+      }
+    ]
+  }

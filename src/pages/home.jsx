@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import DisplayBox from "../components/displayBox";
+import DisplayBox from "../components/Slider";
 
 class Home extends Component {
   state = {};

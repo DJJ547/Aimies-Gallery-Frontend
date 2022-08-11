@@ -1,12 +1,12 @@
-import "./styles.css";
-import Header from "./components/header";
-import Home from "./pages/home"
-import Footer from "./components/footer";
+import NavBar from "./components/NavBar";
+import Home from "./pages/Home"
+import Footer from "./components/Footer";
+import './App.css';
 
 export default function App() {
   return (
     <div>
-      <Header />
+      <NavBar />
       <Home />
       <Footer />
     </div>
