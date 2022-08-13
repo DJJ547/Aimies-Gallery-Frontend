@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { HiOutlineMenuAlt2, HiOutlineMenuAlt3 } from "react-icons/hi";
 
 import NavItem from "./NavItem";
-
-import CartNavigatorIcon from "./CartNavigatorIcon";
 import { Link } from "react-router-dom";
+import CartNavigatorIcon from "./CartNavigatorIcon";
 
 export default function NavBar() {
   const [showNav, setShowNav] = useState(false);
@@ -12,7 +11,9 @@ export default function NavBar() {
   return (
     <nav className="md:flex justify-between items-center bg-black sticky top-0 z-20">
       <div className="flex items-center justify-between">
-        <a href="/home" className="w-45 h-12 p-2 text-white text-lg font-serif font-bold">Aimies Art Gallery</a>
+      <Link to="/">
+          <img className="w-12 h-12 p-2" src="/logo192.png" alt="logo" />
+        </Link>
 
         <CartNavigatorIcon className="md:hidden flex" count={8} />
 
@@ -41,7 +42,7 @@ export default function NavBar() {
         <NavItem content="Shop" href="/shop" />
         <NavItem content="Contact" href="/contact" />
         <NavItem content="About" href="/about" />
-        <CartNavigatorIcon className="hidden md:flex" count={8} />
+        <Link to="/shoppingcart"><CartNavigatorIcon className="hidden md:flex" count={8} /></Link>
       </ul>
     </nav>
   );

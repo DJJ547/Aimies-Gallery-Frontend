@@ -1,17 +1,12 @@
-import React, { Component } from "react";
-import DisplayBox from "../components/Slider";
+import React from 'react';
+import Slider from "../components/Slider"
+import Footer from "../components/Footer"
 
-class Home extends Component {
-  state = {};
-  render() {
+export default function Home() {
     return (
-      <div>
         <div>
-          <DisplayBox />
+          <Slider />
+          <Footer />
         </div>
-      </div>
     );
-  }
 }
-
-export default Home;
