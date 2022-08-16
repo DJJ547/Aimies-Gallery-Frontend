@@ -60,7 +60,7 @@ export default function Slider() {
   return (
     <div ref={slideRef} className="w-full select-none relative">
       <div className="max-w-lg max-h-fit hero container mx-auto pb-10 flex justify-center">
-        <img className="object-contain" src={featuredProducts[currentIndex]} alt="" />
+        <img className="object-cover" src={featuredProducts[currentIndex]} alt="" />
       </div>
 
       <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">

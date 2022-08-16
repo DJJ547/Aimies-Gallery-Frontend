@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Shop() {
+export default function Arts() {
     return (
         <div>
-            <a>Shop Page</a>
+            <a>Arts Page</a>
         </div>
     );
 }
