@@ -8,13 +8,13 @@ import CartNavigatorIcon from "./CartNavigatorIcon";
 export default function NavBar() {
   const [showNav, setShowNav] = useState(false);
 
+
   return (
     <nav className="md:flex justify-between items-center bg-black sticky top-0 z-20">
-      <div className="flex items-center justify-between">
-        <Link to="/">
+      <Link to="/">
           <img className="w-12 h-12 p-2" src="/logo192.png" alt="logo" />
-        </Link>
-
+      </Link>
+      <div className="flex items-center justify-between">
         <CartNavigatorIcon className="md:hidden flex" count={8} />
 
         {showNav ? (

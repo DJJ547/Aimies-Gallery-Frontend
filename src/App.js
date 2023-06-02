@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import "./App.css";
+import Header from "./components/Header";
 import Home from "./pages/Home";
 import Arts from "./pages/Arts";
 import Contact from "./pages/Contact";
@@ -11,7 +11,7 @@ import ShoppingCart from "./pages/ShoppingCart"
 export default function App() {
   return (
     <div>
-      <Navbar />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/arts" element={<Arts />} />
