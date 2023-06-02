@@ -2,14 +2,14 @@ import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 
 const featuredProducts = [
-  "../../public/utils/img1.png",
-  "../../public/utils/img2.png",
-  "./utils/img3.png",
-  "./utils/img4.png",
-  "./utils/img5.png",
-  "./utils/img6.png",
-  "./utils/img7.png",
-  "./utils/img8.png",
+  "./Aimies-Gallery-Frontend/public/utils/img1.png",
+  "./Aimies-Gallery-Frontend/public/utils/img2.png",
+  "./Aimies-Gallery-Frontend/public/utils/img3.png",
+  "./Aimies-Gallery-Frontend/public/utils/img4.png",
+  "./Aimies-Gallery-Frontend/public/utils/img5.png",
+  "./Aimies-Gallery-Frontend/public/utils/img6.png",
+  "./Aimies-Gallery-Frontend/public/utils/img7.png",
+  "./Aimies-Gallery-Frontend/public/utils/img8.png",
 ];
 
 let count = 0;
