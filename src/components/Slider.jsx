@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 
 const featuredProducts = [
-  "./utils/img1.png",
-  "./utils/img2.png",
+  "../../public/utils/img1.png",
+  "../../public/utils/img2.png",
   "./utils/img3.png",
   "./utils/img4.png",
   "./utils/img5.png",
