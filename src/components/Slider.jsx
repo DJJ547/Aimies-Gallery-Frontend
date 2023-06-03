@@ -2,14 +2,14 @@ import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 
 const featuredProducts = [
-  "./Aimies-Gallery-Frontend/public/utils/img1.png",
-  "./Aimies-Gallery-Frontend/public/utils/img2.png",
-  "./Aimies-Gallery-Frontend/public/utils/img3.png",
-  "./Aimies-Gallery-Frontend/public/utils/img4.png",
-  "./Aimies-Gallery-Frontend/public/utils/img5.png",
-  "./Aimies-Gallery-Frontend/public/utils/img6.png",
-  "./Aimies-Gallery-Frontend/public/utils/img7.png",
-  "./Aimies-Gallery-Frontend/public/utils/img8.png",
+  "utils/img1.PNG",
+  "utils/img2.PNG",
+  "utils/img3.PNG",
+  "utils/img4.PNG",
+  "utils/img5.PNG",
+  "utils/img6.PNG",
+  "utils/img7.PNG",
+  "utils/img8.PNG",
 ];
 
 let count = 0;
@@ -60,7 +60,7 @@ export default function Slider() {
   return (
     <div ref={slideRef} className="w-full select-none relative">
       <div className="max-w-lg max-h-fit hero container mx-auto pb-10 flex justify-center">
-        <img className="object-cover" src={featuredProducts[currentIndex]} alt="" />
+        <img className="object-cover" src={featuredProducts[currentIndex]} alt="art samples" />
       </div>
 
       <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
