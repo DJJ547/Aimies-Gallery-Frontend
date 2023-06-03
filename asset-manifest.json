@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Aimies-Gallery-Frontend/static/css/main.81242339.css",
-    "main.js": "/Aimies-Gallery-Frontend/static/js/main.b0ce085f.js",
+    "main.js": "/Aimies-Gallery-Frontend/static/js/main.96be14ad.js",
     "index.html": "/Aimies-Gallery-Frontend/index.html",
     "main.81242339.css.map": "/Aimies-Gallery-Frontend/static/css/main.81242339.css.map",
-    "main.b0ce085f.js.map": "/Aimies-Gallery-Frontend/static/js/main.b0ce085f.js.map"
+    "main.96be14ad.js.map": "/Aimies-Gallery-Frontend/static/js/main.96be14ad.js.map"
   },
   "entrypoints": [
     "static/css/main.81242339.css",
-    "static/js/main.b0ce085f.js"
+    "static/js/main.96be14ad.js"
   ]
 }
