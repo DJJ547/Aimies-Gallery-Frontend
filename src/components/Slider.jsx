@@ -5,11 +5,6 @@ const featuredProducts = [
   "utils/img1.png",
   "utils/img2.png",
   "utils/img3.png",
-  "utils/img4.png",
-  "utils/img5.png",
-  "utils/img6.png",
-  "utils/img7.png",
-  "utils/img8.png",
 ];
 
 let count = 0;
