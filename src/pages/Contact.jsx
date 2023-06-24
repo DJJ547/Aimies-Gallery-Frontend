@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 
 export default function Contact() {
   return (
@@ -14,9 +14,7 @@ export default function Contact() {
           <p className="font-serif mb-5 text-2xl font-bold">
             Send me a message here:
           </p>
-          <p className="font-serif mb-5 text-2xl font-bold">
-            Contact me via:
-          </p>
+          <p className="font-serif mb-5 text-2xl font-bold">Contact me via:</p>
           <p className="font-serif mb-5 text-xl">Email: abcdefg@gmail.com</p>
           <p className="font-serif mb-5 text-xl">Phone: +1 xxx-xxx-xxxx</p>
           <p className="font-serif mb-5 text-xl">Fax: +1 xxx=xxx=xxxx</p>

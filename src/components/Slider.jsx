@@ -29,7 +29,7 @@ export default function Slider() {
   const startSlider = () => {
     slideInterval = setInterval(() => {
       handleOnNextClick();
-    }, 9000);
+    }, 5000);
   };
 
   const pauseSlider = () => {

@@ -4,9 +4,8 @@ import { NavLink } from "react-router-dom";
 export default function NavItem({ content, href }) {
 
   return (
-    <li className="text-lg font-semibold">
+    <li className="text-xl font-semibold">
       <NavLink
-        rel="preload"
         className={({ isActive }) =>
           isActive ? "text-blue-500 underline decoration-single" : "text-white"
         }

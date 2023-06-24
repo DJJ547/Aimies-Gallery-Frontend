@@ -190,7 +190,7 @@ export default function Footer() {
           className="text-gray-600 font-semibold"
           href="https://www.aimiefung.com/"
         >
-          Aimie Fung
+          Jiajun Dai
         </a>
       </div>
     </footer>

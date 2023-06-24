@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TextArea({ count, className }) {
+export default function TextArea({}) {
 
     return (
         <div className="max-w-xl max-h-fit hero container mx-auto py-20 pb-10 justify-center">
