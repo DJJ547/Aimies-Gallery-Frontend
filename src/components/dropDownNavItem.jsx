@@ -38,7 +38,7 @@ export default function NavItem({ content }) {
         <ul className="p-2 text-lg text-white">
           <li>
             <a
-              href="/arts/clayworks"
+              href="/clayworks"
               className="block px-4 py-2 hover:text-gray-500"
             >
               Clayworks
