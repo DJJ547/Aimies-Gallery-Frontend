@@ -188,7 +188,7 @@ export default function Footer() {
         <span>© 2022 Copyright:</span>
         <a
           className="text-gray-600 font-semibold"
-          href="https://www.aimiefung.com/"
+          href="https://github.com/DJJ547/Aimies-Gallery-Frontend"
         >
           Jiajun Dai
         </a>

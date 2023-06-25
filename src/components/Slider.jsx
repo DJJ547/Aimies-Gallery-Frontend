@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
+import img1 from "../assets/slider/img1.jpg"
+import img2 from "../assets/slider/img2.jpg"
+import img3 from "../assets/slider/img3.jpg"
 
-const featuredProducts = ["utils/slider/img1.jpg", "utils/slider/img2.jpg", "utils/slider/img3.jpg"];
+const featuredProducts = [img1, img2, img3];
 
 let count = 0;
 let slideInterval;
@@ -59,9 +62,9 @@ export default function Slider() {
             <AiOutlineVerticalRight size={30} />
           </button>
         </div>
-        <div className="max-w-2xl max-h-2xl hero container mx-4 pb-10 flex flex-column justify-center">
+        <div className="h-2/3 w-2/5 hero container mx-4 pb-10 flex flex-column justify-center">
           <img
-            className="w-full h-full object-cover"
+            className="object-fit h-96 w-4/5"
             src={featuredProducts[currentIndex]}
             alt="art samples"
           />

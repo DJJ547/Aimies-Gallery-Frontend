@@ -1,5 +1,8 @@
 import React from "react";
 import Footer from "../components/footer";
+import proImg1 from "../assets/profilePic/profile1.jpg"
+import proImg2 from "../assets/profilePic/profile2.jpg"
+import proImg3 from "../assets/profilePic/profile3.png"
 
 export default function About() {
   return (
@@ -9,22 +12,22 @@ export default function About() {
           <div className="h-auto max-w-xs bg-gray-400 rounded-full overflow-hidden m-5">
             <img
               className="object-contain"
-              src={"utils/profilePic/profile1.jpg"}
+              src={proImg1}
               alt="profile picture 1"
             ></img>
           </div>
           <div className="h-auto max-w-xs bg-gray-400 rounded-full overflow-hidden m-5">
             <img
               className="object-scale-down"
-              src={"utils/profilePic/profile2.jpg"}
-              alt="profile picture 1"
+              src={proImg2}
+              alt="profile picture 2"
             ></img>
           </div>
           <div className="h-auto max-w-xs bg-gray-400 rounded-full overflow-hidden m-5">
             <img
               className="object-scale-down"
-              src={"utils/profilePic/profile3.png"}
-              alt="profile picture 1"
+              src={proImg3}
+              alt="profile picture 3"
             ></img>
           </div>
         </div>
