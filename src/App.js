@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Header from "../src/components/header";
-import Home from "../src/pages/home";
-import Clayworks from "../src/pages/clayworks";
-import Contact from "../src/pages/contact";
-import About from "../src/pages/about";
+import Header from "./components/header";
+import Home from "./pages/home";
+import Clayworks from "./pages/clayworks";
+import Contact from "./pages/contact";
+import About from "./pages/about";
 
 export default function App() {
   return (
