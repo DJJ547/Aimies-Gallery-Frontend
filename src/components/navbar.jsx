@@ -48,7 +48,7 @@ export default function NavBar() {
         ref={menuRef}
       >
         <NavItem content="Home" href="/" />
-        <DropDownNavItem content="Arts" />
+        <DropDownNavItem content="Art" />
         <NavItem content="Contact" href="/contact" />
         <NavItem content="About" href="/about" />
       </ul>
