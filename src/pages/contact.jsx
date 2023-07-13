@@ -9,8 +9,8 @@ export default function Contact() {
           Contact Me
         </h1>
       </div>
-      <div className="flex items-center justify-center mb-40">
-        <div className="justify-start mr-10">
+      <div className="block md:flex items-center justify-center mb-40">
+        <div className="m-10">
           <p className="font-serif mb-5 text-2xl font-bold">
             Send me a message here:
           </p>

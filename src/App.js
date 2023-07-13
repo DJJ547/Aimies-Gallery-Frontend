@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/header";
 import Home from "./pages/home";
 import Clayworks from "./pages/clayworks";
+import Digital from "./pages/digital";
 import Contact from "./pages/contact";
 import About from "./pages/about";
 
@@ -14,6 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/arts/clayworks" element={<Clayworks />} />
+        <Route path="/arts/digital" element={<Digital/>}></Route>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
