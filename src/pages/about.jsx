@@ -28,7 +28,7 @@ export default function About() {
 
   return (
     <div>
-      <div className="m-10 p-10 block lg:flex">
+      <div className="m-5 p-5 block lg:flex">
         <div className="w-auto lg:w-1/2 p-10">
           <h1 className="font-dancingScript text-center mt-6 font-bold text-gray-900 sm:mt-8 text-4xl">
             YUET TUNG FUNG
