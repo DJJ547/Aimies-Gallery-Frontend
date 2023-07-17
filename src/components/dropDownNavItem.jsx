@@ -32,7 +32,7 @@ export default function NavItem({ content }) {
 
       <div
         //   className="bg-black absolute top-20 flex flex-col items-center max-w-auto"
-        className={`dropdown-menu ${isDropdownOpen ? "unhidden" : "hidden"} bg-black absolute top-20 flex flex-col items-center max-w-auto`}
+        className={`${isDropdownOpen ? "unhidden" : "hidden"} bg-black absolute top-20 flex flex-col items-center max-w-auto`}
         ref={menuRef}
       >
         <ul className="p-2 text-lg text-white">

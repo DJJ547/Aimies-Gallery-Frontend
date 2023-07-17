@@ -59,12 +59,12 @@ export default function About() {
           <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-2 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactRight onClick={nextSlide} size={30} />
           </div>
-          <div className="top-4 justify-center py-2">
+          <div className="hidden group-hover:flex absolute justify-center inset-x-0 bottom-20 cursor-pointer">
             {proImgs.map((proimg, slideIndex) => (
               <div
                 key={slideIndex}
                 onClick={() => goToSlide(slideIndex)}
-                className="hidden group-hover:block text-2xl cursor-pointer"
+                className="hidden group-hover:block text-3xl text-white cursor-pointer"
               >
                 <RxDotFilled />
               </div>
@@ -72,32 +72,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      {/* <div className="hidden relative lg:block 2xl:col-span-3">
-          <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group">
-            <img
-              className="absolute inset-0 w-full h-full object-contain"
-              src={proImgs[currentIndex]}
-              alt="profile pic 1 in lg"
-            />
-            <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-16 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-              <BsChevronCompactLeft onClick={prevSlide} size={30} />
-            </div>
-            <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-16 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
-              <BsChevronCompactRight onClick={nextSlide} size={30} />
-            </div>
-            <div className="hidden group-hover:flex absolute justify-center inset-x-0 bottom-20 cursor-pointer">
-              {proImgs.map((proImg, slideIndex) => (
-                <div
-                  key={slideIndex}
-                  onClick={() => goToSlide(slideIndex)}
-                  className="text-3xl text-white border-solid border-black"
-                >
-                  <RxDotFilled />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div> */}
       <Footer />
     </div>
   );
