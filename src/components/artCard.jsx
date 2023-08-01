@@ -10,12 +10,14 @@ export default function ArtCard({ name, source, i }) {
     >
       <div className="p-4">
       {!loading && <Spinner/>}
+      <a href={source} target="_blank">
         <img
           className="object-contain h-48 w-96 "
           src={source}
           onLoad={() => setLoading(true)}
           alt={name}
         ></img>
+      </a>
         <div className="font-bold text-xl mb-2 text-center">{name}</div>
         {/* <p className="text-gray-700 text-base">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
