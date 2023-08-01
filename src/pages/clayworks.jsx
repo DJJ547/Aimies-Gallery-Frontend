@@ -31,7 +31,7 @@ export default function Clayworks() {
     <div className="container mx-auto py-36 px-8">
       <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-8">
         {currentImgs.map((img, i) => (
-          <ArtCard name={"name"} source={img} key={i}></ArtCard>
+          <ArtCard name={img.name} source={img.signed_url} key={i}></ArtCard>
         ))}
       </div>
       <Pagination

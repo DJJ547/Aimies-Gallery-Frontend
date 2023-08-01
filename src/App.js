@@ -8,6 +8,7 @@ import Clayworks from "./pages/clayworks";
 import Digital from "./pages/digital";
 import Drawings from "./pages/drawings";
 import Paintings from "./pages/paintings";
+import Photography from "./pages/photography"
 
 import Contact from "./pages/contact";
 import About from "./pages/about";
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/arts/digital" element={<Digital/>} />
         <Route path="/arts/drawings" element={<Drawings/>} />
         <Route path="/arts/paintings" element={<Paintings/>} />
+        <Route path="/arts/photography" element={<Photography/>}/>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

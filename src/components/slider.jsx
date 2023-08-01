@@ -4,6 +4,7 @@ import { RxDotFilled } from "react-icons/rx";
 
 let count = 0;
 let slideInterval;
+const NUMBER_OF_SLIDER_IMAGES = 5
 export default function Slider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [imgs, setImgs] = useState([]);
@@ -24,21 +25,21 @@ export default function Slider() {
         console.log(err.message);
       });
     // slideRef.current.addEventListener("animationend", removeAnimation);
-    if (imgs.length > 0) {
+    if (imgs.length == NUMBER_OF_SLIDER_IMAGES) {
+      console.log("all images fetched")
       slideRef.current.addEventListener("mouseenter", pauseSlider);
       slideRef.current.addEventListener("mouseleave", startSlider);
-    }
 
-    startSlider();
-    return () => {
-      pauseSlider();
-    };
+      startSlider();
+    }
+    // return () => {
+    //   pauseSlider();
+    // };
     // eslint-disable-next-line
   }, []);
 
-  
-
   const startSlider = () => {
+    console.log("interval started")
     slideInterval = setInterval(() => {
       handleOnNextClick();
     }, 10000);
