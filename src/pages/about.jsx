@@ -36,14 +36,14 @@ export default function About() {
             <span className="text-indigo-500">HONG KONG - BORN ARTIST</span>
           </h1>
           <p className="mt-2 text-gray-600 sm:mt-4 text-2xl">
-            Hong Kong artist Aimie Fung is currently living in San Francisco,
-            CA. She got her AA in Environmental Studies in mid-2019 and got her
-            BA in Studio Art and geology in mid-2021. Fung has been living in
-            Bay Area for six years, fulfilling her dreams of being an artist.
-            Her works are not just focusing on drawing and painting, but also
-            other mixed media. Fung is also an Earth Science student. She wishes
-            to invite viewers to see the nature in the combination of art and
-            earth sciences through her artworks and photography.
+            - Hong Kong artist Aimie Fung is currently living in San Francisco,
+            CA.<br></br>
+            - She got her AA in Environmental Studies in mid-2019 and got her
+            BA in Studio Art and geology in mid-2021.<br></br> 
+            - Fung has been living in Bay Area for six years, fulfilling her dreams of being an artist.<br></br>
+            - Her works are not just focusing on drawing and painting, but also other mixed media.<br></br> 
+            - Fung is also an Earth Science student.<br></br> 
+            - She wishes to invite viewers to see the nature in the combination of art and earth sciences through her artworks and photography.
           </p>
         </div>
 

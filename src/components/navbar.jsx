@@ -19,7 +19,7 @@ export default function NavBar() {
   });
 
   return (
-    <nav className="flex justify-between items-center bg-black sticky top-0 z-20 p-2">
+    <nav className="flex justify-between items-center bg-black sticky top-0 z-30 p-2 bg-opacity-80">
       <Link to="/">
         <h1 className="text-white font-dancingScript text-4xl">Aimie Fung</h1>
       </Link>
@@ -50,7 +50,7 @@ export default function NavBar() {
         }
         ref={menuRef}
       >
-        <NavItem content="Home" href="/" />
+        <NavItem content="Home" href="/home" />
         <DropDownNavItem content="Art" />
         <NavItem content="Contact" href="/contact" />
         <NavItem content="About" href="/about" />

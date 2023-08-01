@@ -3,7 +3,7 @@ import { AiOutlineCaretUp, AiOutlineCaretDown } from "react-icons/ai";
 
 export default function NavItem({ content }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  let menuRef = useRef();
+  let menuRef = useRef(null);
 
   useEffect(() => {
     let handler = (e) => {
@@ -18,9 +18,10 @@ export default function NavItem({ content }) {
     <li className="text-lg font-semibold">
       <button
         className="mt-1 flex text-xl font-semibold text-white hover:text-gray-500 active:text-primary-700"
-        onClick={() => setIsDropdownOpen((prev) => !prev)}
-        ref={menuRef}
+        onClick={() => {setIsDropdownOpen((prev) => !prev)
+        }}
         type="button"
+        ref={menuRef}
       >
         {content}
         {!isDropdownOpen ? (
@@ -31,8 +32,7 @@ export default function NavItem({ content }) {
       </button>
 
       <div
-        //   className="bg-black absolute top-20 flex flex-col items-center max-w-auto"
-        className={`${isDropdownOpen ? "unhidden" : "hidden"} bg-black absolute top-20 flex flex-col items-center max-w-auto`}
+        className={`${isDropdownOpen ? "unhidden" : "hidden"} bg-black bg-opacity-80 absolute top-20 flex flex-col items-center max-w-auto`}
         ref={menuRef}
       >
         <ul className="p-2 text-lg text-white">
