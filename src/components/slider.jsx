@@ -16,7 +16,7 @@ export default function Slider() {
   // };
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/home")
+    fetch("https://aimiefung-art-backend-e497d2ccaa02.herokuapp.com/api/home")
       .then((response) => response.json())
       .then((data) => {
         setImgs(data);
